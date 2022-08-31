@@ -57,7 +57,7 @@ Partial Class Menu
         Me.lblExcusas.Name = "lblExcusas"
         Me.lblExcusas.Size = New System.Drawing.Size(471, 49)
         Me.lblExcusas.TabIndex = 18
-        Me.lblExcusas.Text = "Que quiere hacer?"
+        Me.lblExcusas.Text = "Elija una opción"
         Me.lblExcusas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button2
@@ -132,7 +132,7 @@ Partial Class Menu
         Me.Button1.TabIndex = 26
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Form5
+        'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -147,7 +147,7 @@ Partial Class Menu
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.lblExcusas)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Name = "Form5"
+        Me.Name = "Menu"
         Me.Text = "Menu"
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
